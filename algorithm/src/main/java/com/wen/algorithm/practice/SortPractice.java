@@ -8,7 +8,7 @@ public class SortPractice {
     1、如何用快排思想在O(n)内查找第K大元素？
      */
     public static void main(String[] args) {
-        //分区、分治的思想, 将两个分为两部分
+        //分区、分治的思想, 将两个分为两部分,
         int A[] = {11,3,7,5,12,6,1,9,8,2,10};
         int max = findMax(A, 0, A.length - 1);
         System.out.println("max="+max);

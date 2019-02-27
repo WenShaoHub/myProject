@@ -6,17 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="algorithm" />
         <module name="myProject" />
-        <module name="sf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="algorithmDemo" target="1.8" />
+      <module name="er" target="1.8" />
+      <module name="sf" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algorithm" options="-parameters" />
       <module name="algorithmDemo" options="-parameters" />
+      <module name="er" options="-parameters" />
       <module name="sf" options="-parameters" />
     </option>
   </component>

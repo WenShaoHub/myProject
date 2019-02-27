@@ -1,7 +1,11 @@
 package com.wen.algorithm.sortAlgorithm;
 
 /*
-排序算法
+快速排序算法
+平均复杂度O(nlogn)
+最坏情况复杂度：O(n*n)
+与归并排序比较，优势：快速排序是原地排序算法，空间复杂度低，
+缺点：不稳定，当数组里有两个相同元素时，他们的顺序可能会调换
  */
 public class QuickSort {
     public static void main(String[] args) {
